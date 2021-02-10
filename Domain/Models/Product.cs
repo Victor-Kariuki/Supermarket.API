@@ -1,0 +1,10 @@
+namespace Supermarket.API.Domain.Models
+{
+    public class Product {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public short QuantityInPackage { get; set; }
+        public int categoryId { get; set; }
+        public Category Category { get; set; }
+    }
+}
